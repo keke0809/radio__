@@ -3,4 +3,4 @@ data/
 checkpoints/smooth/
 checkpoints/one-shot/   
 data_splits/
-results/
+results/*
