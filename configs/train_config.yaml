@@ -1,0 +1,21 @@
+# configs/train_config.yaml
+
+data:
+  file_path: "/data/zhikeZhang/RadioML/data/GOLD_XYZ_OSC.0001_1024.hdf5"
+  snr_threshold: 0          #  SNR >= 0 
+  train_split: 0.8          # 80% train, 20% val
+  batch_size: 4096          # 
+  num_workers: 8            # DataLoader 的 num_workers 参数
+
+model:
+  num_classes: 24   
+  d_model: 256  # Transformer 中的特征维度
+  nhead: 8  # Multi-head attention 的头数
+  num_layers: 5  # Transformer encoder 的层数
+
+train:
+  epochs: 50
+  lr: 0.001  # Adam 优化器的初始学习率
+  weight_decay: 0.0001  # Adam 优化器的权重衰减
+
+  save_dir: "checkpoints"   # 权重保存目录

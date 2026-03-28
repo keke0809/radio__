@@ -1,1 +1,6 @@
-data/**/*
+data/
+*.hdft
+checkpoints/smooth/
+checkpoints/one-shot/   
+data_splits/
+results/
