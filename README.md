@@ -1,9 +1,8 @@
-这里是为你准备好的纯净版 Markdown 源码。你可以直接点击代码块右上角的 **“复制”** 按钮，然后粘贴到你项目根目录的 `README.md` 文件中。
-
-为了让这个项目在接下来的秋招和实习面试中更具杀伤力，我特意在 README 中加入了完整的环境依赖、运行步骤和极具工程深度的特性亮点。
 
 ```markdown
 # Conformer-AMC: Automatic Modulation Classification 📡
+作者：张治柯｜北京交通大学
+Author: Zhike Zhang | Beijing Jiaotong University
 
 A high-performance deep learning pipeline for Automatic Modulation Classification (AMC) using the RadioML 2018 dataset. This project implements a hybrid **ConformerAMC** architecture that bridges local feature extraction (CNN) with global sequence modeling (Transformer), optimized for extreme noise environments.
 
